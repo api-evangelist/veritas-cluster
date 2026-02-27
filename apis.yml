@@ -1,0 +1,111 @@
+name: Veritas Cluster Server APIs
+description: APIs for managing and monitoring Veritas Cluster Server (VCS) infrastructure, providing high availability and disaster recovery capabilities
+image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
+url: https://www.veritas.com/support/en_US/cluster-server
+created: '2024-01-15'
+modified: '2024-01-15'
+specificationVersion: '0.18'
+tags:
+- high availability
+- clustering
+- disaster recovery
+- failover
+- infrastructure management
+- Veritas
+apis:
+- name: Veritas Cluster Server REST API
+  description: RESTful API for managing cluster resources, service groups, and cluster configuration
+  baseURL: https://{vcs-management-server}:14150/api/v1
+  humanURL: https://www.veritas.com/support/en_US/article.100040102
+  tags:
+  - REST
+  - cluster management
+  - service groups
+  - resources
+  properties:
+  - type: X-documentation
+    url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_rest_api/index.htm
+  - type: X-openapi
+    url: https://vcs-server:14150/api/docs/openapi.json
+  - type: X-authentication
+    url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_rest_api/ch02.htm
+  contact:
+  - FN: Veritas Support
+    email: support@veritas.com
+    X-twitter: VeritasTechLLC
+- name: Veritas Cluster Server Python API
+  description: Python SDK for programmatic cluster management and automation
+  baseURL: https://{vcs-management-server}:14150
+  humanURL: https://www.veritas.com/support/en_US/article.100040102
+  tags:
+  - Python
+  - SDK
+  - automation
+  - scripting
+  properties:
+  - type: X-documentation
+    url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/
+  - type: X-sdk-python
+    url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/ch01s02.htm
+- name: Veritas Cluster Server Java API
+  description: Java-based API for integrating VCS management into enterprise applications
+  humanURL: https://www.veritas.com/support/en_US/article.DOC5308
+  tags:
+  - Java
+  - SDK
+  - enterprise integration
+  properties:
+  - type: X-documentation
+    url: https://sort.veritas.com/public/documents/vcs/7.4/linux/productguides/html/vcs_java_api/
+  - type: X-sdk-java
+    url: https://sort.veritas.com/public/documents/vcs/7.4/linux/productguides/html/vcs_java_api/ch01s03.htm
+- name: Veritas Cluster Server Command Line Interface
+  description: Command-line tools for cluster administration and monitoring
+  humanURL: https://www.veritas.com/support/en_US/article.DOC5308
+  tags:
+  - CLI
+  - command line
+  - administration
+  - monitoring
+  properties:
+  - type: X-documentation
+    url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_admin/index.htm
+  - type: X-command-reference
+    url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_command_reference/
+- name: Veritas Cluster Server SNMP Agent
+  description: SNMP-based monitoring interface for cluster health and status
+  humanURL: https://www.veritas.com/support/en_US/article.DOC5308
+  tags:
+  - SNMP
+  - monitoring
+  - alerting
+  - traps
+  properties:
+  - type: X-documentation
+    url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_admin/ch22.htm
+  - type: X-mib-files
+    url: https://www.veritas.com/support/en_US/article.TECH95356
+common:
+- type: X-support
+  url: https://www.veritas.com/support/en_US
+- type: X-portal
+  url: https://my.veritas.com/
+- type: X-knowledge-base
+  url: https://www.veritas.com/support/en_US/article-search.html
+- type: X-downloads
+  url: https://www.veritas.com/support/en_US/downloads
+- type: X-compatibility
+  url: https://sort.veritas.com/eosl
+- type: X-community
+  url: https://www.veritas.com/community/
+- type: X-contact
+  url: https://www.veritas.com/about/contact
+- type: X-terms-of-service
+  url: https://www.veritas.com/about/legal/license-agreements
+- type: X-privacy-policy
+  url: https://www.veritas.com/about/legal/privacy
+maintainers:
+- FN: Veritas Technologies LLC
+  email: support@veritas.com
+  X-twitter: VeritasTechLLC
+  X-github: veritas-technologies
