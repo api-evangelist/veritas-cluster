@@ -1,9 +1,9 @@
 name: Veritas Cluster Server APIs
-description: APIs for managing and monitoring Veritas Cluster Server (VCS) infrastructure, providing high availability and disaster recovery capabilities
+description: APIs for managing and monitoring Veritas Cluster Server (VCS) and InfoScale infrastructure, providing high availability, disaster recovery, and storage management capabilities across on-premises and containerized environments.
 image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
 url: https://www.veritas.com/support/en_US/cluster-server
 created: '2024-01-15'
-modified: '2024-01-15'
+modified: '2026-03-03'
 specificationVersion: '0.18'
 tags:
 - high availability
@@ -12,6 +12,10 @@ tags:
 - failover
 - infrastructure management
 - Veritas
+- InfoScale
+- storage management
+- containers
+- Kubernetes
 apis:
 - name: Veritas Cluster Server REST API
   description: RESTful API for managing cluster resources, service groups, and cluster configuration
@@ -85,6 +89,73 @@ apis:
     url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_admin/ch22.htm
   - type: X-mib-files
     url: https://www.veritas.com/support/en_US/article.TECH95356
+- name: Veritas InfoScale REST API
+  description: REST API for InfoScale storage and cluster configuration and management operations, supporting storage provisioning, disk group management, and volume operations. Available in InfoScale 8.0 and 9.0.
+  baseURL: https://{infoscale-rest-server}:14150/infoscale/api/2.0
+  humanURL: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478
+  tags:
+  - REST
+  - InfoScale
+  - storage management
+  - cluster management
+  - volume management
+  properties:
+  - type: X-documentation
+    url: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478
+  - type: X-supported-operations
+    url: https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151832379-149461849
+  - type: X-rest-server-configuration
+    url: https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151837041-149461849
+  - type: X-ha-configuration
+    url: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151835060-166315478
+  - type: X-release-notes
+    url: https://www.veritas.com/support/en_US/doc/109864724-166315456-0/v151831652-166315456
+  - type: X-metrics
+    url: https://{infoscale-rest-server}:14150/infoscale/api/2.0/metrics
+- name: Veritas InfoScale Operations Manager Web Services API
+  description: Web services API for InfoScale Operations Manager (VIOM) providing meta, query, update, and operations APIs for managing InfoScale objects over HTTPS. Supports management of hosts, clusters, LDEVs, and virtualization servers.
+  baseURL: https://{management-server}:14161/vom/api
+  humanURL: https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index
+  tags:
+  - REST
+  - web services
+  - operations manager
+  - VIOM
+  - management
+  - monitoring
+  properties:
+  - type: X-documentation
+    url: https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index
+  - type: X-authentication
+    url: https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v84306317-156079406
+  - type: X-examples
+    url: https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v96894970-156079406
+  - type: X-supported-objects
+    url: https://www.veritas.com/content/support/en_US/doc/132757515-132757518-0/br74_viom_tot_v96212267-132757518
+  - type: X-blog
+    url: https://vox.veritas.com/blog/storage-and-availability-management/increasing-flexibility-for-infoscale-environments-with-the-viom-api/881889
+  - type: X-download
+    url: https://www.veritas.com/support/en_US/downloads/detail.REL133180
+  - type: X-installation-guide
+    url: https://www.veritas.com/support/en_US/doc/120571566-156079382-0/index
+- name: Veritas InfoScale for Kubernetes Environments
+  description: InfoScale container support for Kubernetes and OpenShift, providing CSI-compliant storage drivers for dynamic and static provisioning, volume snapshots, and Prometheus metrics integration for monitoring.
+  humanURL: https://www.veritas.com/support/en_US/doc/167166372-167166485-0/index
+  tags:
+  - Kubernetes
+  - OpenShift
+  - containers
+  - CSI
+  - storage provisioning
+  - Prometheus
+  - monitoring
+  properties:
+  - type: X-documentation
+    url: https://www.veritas.com/support/en_US/doc/167166372-167166485-0/index
+  - type: X-monitoring
+    url: https://www.veritas.com/support/en_US/doc/167166372-167166485-0/v167165336-167166485
+  - type: X-container-support
+    url: https://www.veritas.com/support/en_US/doc/151215298-151215302-0/index
 common:
 - type: X-support
   url: https://www.veritas.com/support/en_US
@@ -104,8 +175,21 @@ common:
   url: https://www.veritas.com/about/legal/license-agreements
 - type: X-privacy-policy
   url: https://www.veritas.com/about/legal/privacy
+- type: X-sort
+  url: https://sort.veritas.com/
+- type: X-documentation
+  url: https://sort.veritas.com/documents/doc_details/via/8.0/Linux/Documentation/
+- type: X-whats-new
+  url: https://www.veritas.com/availability/infoscale/whats-new
+- type: X-blog
+  url: https://vox.veritas.com/
+- type: X-twitter
+  url: https://twitter.com/VeritasTechLLC
+- type: X-github
+  url: https://github.com/VeritasOS
+- type: X-solutions-guide
+  url: https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v109543903-166315478
 maintainers:
-- FN: Veritas Technologies LLC
-  email: support@veritas.com
-  X-twitter: VeritasTechLLC
-  X-github: veritas-technologies
+- FN: Kin Lane
+  email: kin@apievangelist.com
+  X-github: kinlane
