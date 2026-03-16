@@ -1,5 +1,5 @@
 aid: veritas-cluster
-name: Veritas Cluster Server APIs
+name: Veritas Cluster Server
 description: APIs for managing and monitoring Veritas Cluster Server (VCS) and InfoScale infrastructure, providing high availability, disaster recovery, and storage management capabilities across on-premises and containerized environments.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: >-
