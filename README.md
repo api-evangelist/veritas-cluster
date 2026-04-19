@@ -1,109 +1,132 @@
-# Veritas Cluster Server APIs (veritas-cluster)
-APIs for managing and monitoring Veritas Cluster Server (VCS) infrastructure, providing high availability and disaster recovery capabilities
+# Veritas Cluster Server (veritas-cluster)
+APIs for managing and monitoring Veritas Cluster Server (VCS) and InfoScale infrastructure, providing high availability, disaster recovery, and storage management capabilities.
 
-**URL:** [Visit APIs.json URL](https://www.veritas.com/support/en_US/cluster-server)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/veritas-cluster/refs/heads/main/apis.yml)
 
 ## Tags:
 
- - high availability, clustering, disaster recovery, failover, infrastructure management, Veritas
+ - Clustering, Containers, Disaster Recovery, Failover, High Availability, InfoScale, Kubernetes, Storage Management, Veritas
 
 ## Timestamps
 
 - **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+- **Modified:** 2026-04-19 
 
 ## APIs
 
 ### Veritas Cluster Server REST API
-RESTful API for managing cluster resources, service groups, and cluster configuration
+RESTful API for managing cluster resources, service groups, and cluster configuration.
 
 **Human URL:** [https://www.veritas.com/support/en_US/article.100040102](https://www.veritas.com/support/en_US/article.100040102)
 
-
 #### Tags:
 
- - REST, cluster management, service groups, resources
+ - Cluster Management, Resources, REST, Service Groups
 
 #### Properties
 
-- [X-documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_rest_api/index.htm)
-- [X-openapi](https://vcs-server:14150/api/docs/openapi.json)
-- [X-authentication](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_rest_api/ch02.htm)
+- [Documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_rest_api/index.htm)
+- [Authentication](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_rest_api/ch02.htm)
 
 ### Veritas Cluster Server Python API
-Python SDK for programmatic cluster management and automation
+Python SDK for programmatic cluster management and automation.
 
 **Human URL:** [https://www.veritas.com/support/en_US/article.100040102](https://www.veritas.com/support/en_US/article.100040102)
 
-
 #### Tags:
 
- - Python, SDK, automation, scripting
+ - Automation, Python, Scripting, SDK
 
 #### Properties
 
-- [X-documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/)
-- [X-sdk-python](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/ch01s02.htm)
+- [Documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/)
+- [SDK](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/ch01s02.htm)
 
 ### Veritas Cluster Server Java API
-Java-based API for integrating VCS management into enterprise applications
+Java-based API for integrating VCS management into enterprise applications.
 
 **Human URL:** [https://www.veritas.com/support/en_US/article.DOC5308](https://www.veritas.com/support/en_US/article.DOC5308)
 
-
 #### Tags:
 
- - Java, SDK, enterprise integration
+ - Enterprise Integration, Java, SDK
 
 #### Properties
 
-- [X-documentation](https://sort.veritas.com/public/documents/vcs/7.4/linux/productguides/html/vcs_java_api/)
-- [X-sdk-java](https://sort.veritas.com/public/documents/vcs/7.4/linux/productguides/html/vcs_java_api/ch01s03.htm)
+- [Documentation](https://sort.veritas.com/public/documents/vcs/7.4/linux/productguides/html/vcs_java_api/)
 
 ### Veritas Cluster Server Command Line Interface
-Command-line tools for cluster administration and monitoring
+Command-line tools for cluster administration and monitoring.
 
 **Human URL:** [https://www.veritas.com/support/en_US/article.DOC5308](https://www.veritas.com/support/en_US/article.DOC5308)
 
-
 #### Tags:
 
- - CLI, command line, administration, monitoring
+ - Administration, CLI, Command Line, Monitoring
 
 #### Properties
 
-- [X-documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_admin/index.htm)
-- [X-command-reference](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_command_reference/)
+- [Documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_admin/index.htm)
+- [APIReference](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_command_reference/)
 
-### Veritas Cluster Server SNMP Agent
-SNMP-based monitoring interface for cluster health and status
+### Veritas InfoScale REST API
+REST API for InfoScale storage and cluster configuration and management operations.
 
-**Human URL:** [https://www.veritas.com/support/en_US/article.DOC5308](https://www.veritas.com/support/en_US/article.DOC5308)
-
+**Human URL:** [https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478](https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478)
 
 #### Tags:
 
- - SNMP, monitoring, alerting, traps
+ - Cluster Management, InfoScale, REST, Storage Management
 
 #### Properties
 
-- [X-documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_admin/ch22.htm)
-- [X-mib-files](https://www.veritas.com/support/en_US/article.TECH95356)
+- [Documentation](https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478)
+- [APIReference](https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151832379-149461849)
+
+### Veritas InfoScale Operations Manager Web Services API
+Web services API for InfoScale Operations Manager providing management of InfoScale objects over HTTPS.
+
+**Human URL:** [https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index)
+
+#### Tags:
+
+ - Management, Monitoring, Operations Manager, VIOM, Web Services
+
+#### Properties
+
+- [Documentation](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index)
+- [Authentication](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v84306317-156079406)
+- [CodeExamples](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v96894970-156079406)
+
+### Veritas InfoScale for Kubernetes Environments
+InfoScale container support for Kubernetes and OpenShift with CSI-compliant storage drivers.
+
+**Human URL:** [https://www.veritas.com/support/en_US/doc/167166372-167166485-0/index](https://www.veritas.com/support/en_US/doc/167166372-167166485-0/index)
+
+#### Tags:
+
+ - Containers, CSI, Kubernetes, OpenShift, Prometheus, Storage Provisioning
+
+#### Properties
+
+- [Documentation](https://www.veritas.com/support/en_US/doc/167166372-167166485-0/index)
 
 ## Common Properties
 
-- [X-support](https://www.veritas.com/support/en_US)
-- [X-portal](https://my.veritas.com/)
-- [X-knowledge-base](https://www.veritas.com/support/en_US/article-search.html)
-- [X-downloads](https://www.veritas.com/support/en_US/downloads)
-- [X-compatibility](https://sort.veritas.com/eosl)
-- [X-community](https://www.veritas.com/community/)
-- [X-contact](https://www.veritas.com/about/contact)
-- [X-terms-of-service](https://www.veritas.com/about/legal/license-agreements)
-- [X-privacy-policy](https://www.veritas.com/about/legal/privacy)
+- [Support](https://www.veritas.com/support/en_US)
+- [Portal](https://my.veritas.com/)
+- [KnowledgeCenter](https://www.veritas.com/support/en_US/article-search.html)
+- [TermsOfService](https://www.veritas.com/about/legal/license-agreements)
+- [PrivacyPolicy](https://www.veritas.com/about/legal/privacy)
+- [Documentation](https://sort.veritas.com/documents/doc_details/via/8.0/Linux/Documentation/)
+- [ReleaseNotes](https://www.veritas.com/availability/infoscale/whats-new)
+- [Blog](https://vox.veritas.com/)
+- [X](https://twitter.com/VeritasTechLLC)
+- [GitHubOrganization](https://github.com/VeritasOS)
+- [Features](https://www.veritas.com/availability/infoscale)
+- [UseCases](https://www.veritas.com/availability/infoscale/whats-new)
+- [Integrations](https://www.veritas.com/availability/infoscale)
 
 ## Maintainers
 
-**FN:** Veritas Technologies LLC
-
-**Email:** support@veritas.com
+**FN:** Kin Lane, **Email:** kin@apievangelist.com
