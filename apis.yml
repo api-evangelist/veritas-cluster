@@ -53,7 +53,7 @@ apis:
     properties:
       - type: Documentation
         url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/
-      - type: SDK
+      - type: SDKs
         url: https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/ch01s02.htm
   - name: Veritas Cluster Server Java API
     description: >-
@@ -66,7 +66,7 @@ apis:
     properties:
       - type: Documentation
         url: https://sort.veritas.com/public/documents/vcs/7.4/linux/productguides/html/vcs_java_api/
-      - type: SDK
+      - type: SDKs
         url: https://sort.veritas.com/public/documents/vcs/7.4/linux/productguides/html/vcs_java_api/ch01s03.htm
   - name: Veritas Cluster Server Command Line Interface
     description: >-
