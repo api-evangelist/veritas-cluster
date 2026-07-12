@@ -164,6 +164,10 @@ apis:
       - type: Documentation
         url: https://www.veritas.com/support/en_US/doc/151215298-151215302-0/index
 common:
+  - type: VulnerabilityDisclosure
+    url: security/veritas-cluster-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/veritas-cluster-domain-security.yml
   - type: Support
     url: https://www.veritas.com/support/en_US
   - type: Portal
