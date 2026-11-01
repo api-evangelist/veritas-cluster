@@ -1,4 +1,4 @@
-# Veritas Cluster Server (veritas-cluster)
+# Veritas Cluster Server
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,134 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-APIs for managing and monitoring Veritas Cluster Server (VCS) and InfoScale infrastructure, providing high availability, disaster recovery, and storage management capabilities.
+APIs for managing and monitoring Veritas Cluster Server (VCS) and InfoScale infrastructure, providing high availability, disaster recovery, and storage management capabilities across on-premises and containerized environments.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/veritas-cluster/refs/heads/main/apis.yml)
+**Areas:** Clustering · Containers · Disaster Recovery · Failover · High Availability · InfoScale · Infrastructure Management · Kubernetes · Storage Management · Veritas
 
-## Tags:
+## Veritas Cluster Server on APIs.io
 
- - Clustering, Containers, Disaster Recovery, Failover, High Availability, InfoScale, Kubernetes, Storage Management, Veritas
+Everything profiled for Veritas Cluster Server is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/veritas-cluster/](https://apis.io/providers/veritas-cluster/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (8)
 
-- **Created:** 2024-01-15 
-- **Modified:** 2026-04-19 
+- [Veritas Cluster Server REST API](https://apis.io/apis/veritas-cluster/veritas-cluster-server-rest-api/) — RESTful API for managing cluster resources, service groups, and cluster configuration.
+- [Veritas Cluster Server Python API](https://apis.io/apis/veritas-cluster/veritas-cluster-server-python-api/) — Python SDK for programmatic cluster management and automation.
+- [Veritas Cluster Server Java API](https://apis.io/apis/veritas-cluster/veritas-cluster-server-java-api/) — Java-based API for integrating VCS management into enterprise applications.
+- [Veritas Cluster Server Command Line Interface](https://apis.io/apis/veritas-cluster/veritas-cluster-server-command-line-interface/) — Command-line tools for cluster administration and monitoring.
+- [Veritas Cluster Server SNMP Agent](https://apis.io/apis/veritas-cluster/veritas-cluster-server-snmp-agent/) — SNMP-based monitoring interface for cluster health and status.
+- [Veritas InfoScale REST API](https://apis.io/apis/veritas-cluster/veritas-infoscale-rest-api/) — REST API for InfoScale storage and cluster configuration and management operations, supporting storage provisioning, disk group management, and volume…
+- [Veritas InfoScale Operations Manager Web Services API](https://apis.io/apis/veritas-cluster/veritas-infoscale-operations-manager-web-services-api/) — Web services API for InfoScale Operations Manager (VIOM) providing meta, query, update, and operations APIs for managing InfoScale objects over HTTPS.…
+- [Veritas InfoScale for Kubernetes Environments](https://apis.io/apis/veritas-cluster/veritas-infoscale-for-kubernetes-environments/) — InfoScale container support for Kubernetes and OpenShift, providing CSI-compliant storage drivers for dynamic and static provisioning, volume snapshots, and…
 
-## APIs
+### Published properties
 
-### Veritas Cluster Server REST API
-RESTful API for managing cluster resources, service groups, and cluster configuration.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://www.veritas.com/support/en_US/article.100040102](https://www.veritas.com/support/en_US/article.100040102)
+#### Security (2)
 
-#### Tags:
+Authentication, trust centre, and vulnerability disclosure.
 
- - Cluster Management, Resources, REST, Service Groups
+- [Veritas Cluster Domain Security](https://apis.io/security/veritas-cluster/veritas-cluster-domain-security/)
+- [Veritas Cluster Vulnerability Disclosure](https://apis.io/security/veritas-cluster/veritas-cluster-vulnerability-disclosure/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_rest_api/index.htm)
-- [Authentication](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_rest_api/ch02.htm)
+Published plans, tiers and prices.
 
-### Veritas Cluster Server Python API
-Python SDK for programmatic cluster management and automation.
+- [Veritas Cluster Plans Pricing](https://apis.io/plans/veritas-cluster/veritas-cluster-plans-pricing/)
 
-**Human URL:** [https://www.veritas.com/support/en_US/article.100040102](https://www.veritas.com/support/en_US/article.100040102)
+#### Rate limits (1)
 
-#### Tags:
+Published request limits.
 
- - Automation, Python, Scripting, SDK
+- [Veritas Cluster Rate Limits](https://apis.io/rate-limits/veritas-cluster/veritas-cluster-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/)
-- [SDK](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_python_api/ch01s02.htm)
+What the API costs to run, by operation.
 
-### Veritas Cluster Server Java API
-Java-based API for integrating VCS management into enterprise applications.
+- [Veritas Cluster Finops](https://apis.io/finops/veritas-cluster/veritas-cluster-finops/)
 
-**Human URL:** [https://www.veritas.com/support/en_US/article.DOC5308](https://www.veritas.com/support/en_US/article.DOC5308)
+## Where to find this API
 
-#### Tags:
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
- - Enterprise Integration, Java, SDK
-
-#### Properties
-
-- [Documentation](https://sort.veritas.com/public/documents/vcs/7.4/linux/productguides/html/vcs_java_api/)
-
-### Veritas Cluster Server Command Line Interface
-Command-line tools for cluster administration and monitoring.
-
-**Human URL:** [https://www.veritas.com/support/en_US/article.DOC5308](https://www.veritas.com/support/en_US/article.DOC5308)
-
-#### Tags:
-
- - Administration, CLI, Command Line, Monitoring
-
-#### Properties
-
-- [Documentation](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_admin/index.htm)
-- [APIReference](https://sort.veritas.com/public/documents/vcs/8.0/linux/productguides/html/vcs_command_reference/)
-
-### Veritas InfoScale REST API
-REST API for InfoScale storage and cluster configuration and management operations.
-
-**Human URL:** [https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478](https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478)
-
-#### Tags:
-
- - Cluster Management, InfoScale, REST, Storage Management
-
-#### Properties
-
-- [Documentation](https://www.veritas.com/support/en_US/doc/79638609-166315478-0/v151832379-166315478)
-- [APIReference](https://www.veritas.com/support/en_US/doc/79638609-149461849-0/v151832379-149461849)
-
-### Veritas InfoScale Operations Manager Web Services API
-Web services API for InfoScale Operations Manager providing management of InfoScale objects over HTTPS.
-
-**Human URL:** [https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index)
-
-#### Tags:
-
- - Management, Monitoring, Operations Manager, VIOM, Web Services
-
-#### Properties
-
-- [Documentation](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/index)
-- [Authentication](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v84306317-156079406)
-- [CodeExamples](https://www.veritas.com/support/en_US/doc/120572053-156079406-0/viom_tot_v96894970-156079406)
-
-### Veritas InfoScale for Kubernetes Environments
-InfoScale container support for Kubernetes and OpenShift with CSI-compliant storage drivers.
-
-**Human URL:** [https://www.veritas.com/support/en_US/doc/167166372-167166485-0/index](https://www.veritas.com/support/en_US/doc/167166372-167166485-0/index)
-
-#### Tags:
-
- - Containers, CSI, Kubernetes, OpenShift, Prometheus, Storage Provisioning
-
-#### Properties
-
-- [Documentation](https://www.veritas.com/support/en_US/doc/167166372-167166485-0/index)
-
-## Common Properties
-
-- [Support](https://www.veritas.com/support/en_US)
-- [Portal](https://my.veritas.com/)
-- [KnowledgeCenter](https://www.veritas.com/support/en_US/article-search.html)
-- [TermsOfService](https://www.veritas.com/about/legal/license-agreements)
-- [PrivacyPolicy](https://www.veritas.com/about/legal/privacy)
+- [Website](https://veritas.com)
 - [Documentation](https://sort.veritas.com/documents/doc_details/via/8.0/Linux/Documentation/)
-- [ReleaseNotes](https://www.veritas.com/availability/infoscale/whats-new)
+- [Support](https://www.veritas.com/support/en_US)
 - [Blog](https://vox.veritas.com/)
-- [X](https://twitter.com/VeritasTechLLC)
-- [GitHubOrganization](https://github.com/VeritasOS)
-- [Features](https://www.veritas.com/availability/infoscale)
-- [UseCases](https://www.veritas.com/availability/infoscale/whats-new)
-- [Integrations](https://www.veritas.com/availability/infoscale)
+- [Terms of service](https://www.veritas.com/about/legal/license-agreements)
+- [Privacy policy](https://www.veritas.com/about/legal/privacy)
+- [GitHub](https://github.com/VeritasOS)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane, **Email:** kin@apievangelist.com
+**Kin Score 37.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 30.5 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 63.1 |
+| Access clarity | 28.9 |
+
+**Agent readiness 17.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | documented (partial credit) |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/veritas-cluster/](https://apis.io/providers/veritas-cluster/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Veritas Cluster Server: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/veritas-cluster/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
